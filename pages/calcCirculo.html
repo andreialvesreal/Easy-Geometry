@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../script/script.js"></script>
+</head>
+<body onload="inicio()">
+
+    <a href="../index.html">
+        <img src="../style/img/Logo-horizontal.png" alt="" width="250pt">
+    </a>
+        <center>
+            <img src="../style/img/circulo.png" alt="" width="200px">
+            <p class="text formula">A = π.R²</p>
+          
+            <p class="text">Raio:</p>
+            <input type="number" class="input-num" id="raio"><br>
+            <input type="button" class="input-btn" value="Calcular" onclick="calcularCirculo()">
+
+            <div id="result">
+                <p class="text">Resultado:</p>
+                <input type="number" class="input-num" id="resultado" readonly>
+            </div>
+        </center>  
+    
+</body>
+</html>

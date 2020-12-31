@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    background-image: linear-gradient(-90deg, #7b3c9f, #3b3086 );
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    padding-bottom: 1.5em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.text{
+    color: white;
+}
+
+.col-sm-4 a h3{
+    color: white;
+}
+
+.input-num {
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15pt;
+}
+
+.input-btn{
+    margin-top: 10px;
+    font-size: 13pt;
+    width: 20%;
+    border-radius: 5px;
+    background-image: linear-gradient(-90deg, #7b3c9f, #3b3086 );
+    border-width: 1px;
+    border-color: white;
+    color: white;
+}
+
+.formula {
+    font-size: 20pt;
+}
+
+#result {
+    margin-top: 1.5em;
+}
+
+#btn-info{
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 2em;
+    background-color: rgba(255,255,255,0);
+    border-color: white;
+    transition-duration: 1s;
+}
+
+#btn-info:hover{
+    width: 3em;
+    height: 3em;
+}

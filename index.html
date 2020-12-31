@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./script/script.js"></script>
+</head>
+<body>
+
+    <img src="./style/img/Logo-horizontal.png" alt="" width="250pt">
+    
+    <div class="titulo">
+        <H1 class="text">Bem-vindo ao Easy Geometry</H1>
+        <h3 class="text">Escolha aqui a forma geométrica que deseja calcular a área</h3>
+    </div>
+
+    <center>
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+                <a href="./pages/calcCirculo.html">
+                    <img src="./style/img/circulo.png"width="130px">
+                    <h3>Círculo</h3>
+                </a>
+            </div>
+
+            <div class="col-sm-4">
+                <a href="./pages/calcQuadrado.html">
+                    <img src="./style/img/quadrado.png" width="130px">
+                    <h3>Quadrado</h3>
+                </a>
+            </div>
+
+            <div class="col-sm-4">
+                <a href="./pages/calcTriangulo.html">
+                    <img src="./style/img/triangulo.png" width="130px">
+                    <h3>Triangulo</h3>
+                </a>
+            </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+                <a href="./pages/calcRetangulo.html">
+                    <img src="./style/img/retangulo.png" width="130px">
+                    <h3>Retângulo</h3>
+                </a>
+            </div>
+
+            <div class="col-sm-4">
+                <a href="./pages/calcTrapezio.html">
+                    <img src="./style/img/trapezio.png" width="130px">
+                    <h3>Trapézio</h3>
+                </a>
+            </div>
+
+            <div class="col-sm-4">
+                <a href="./pages/calcLosango.html">
+                    <img src="./style/img/losango.png" width="130px">
+                    <h3>Losango</h3>
+                </a>
+            </div>
+            </div>
+        </div>
+    </center>
+
+    <!-- Trigger the modal with a button -->
+    <div align="right">
+        <button id="btn-info" type="button" class="btn btn-info btn-lg" id="info" data-toggle="modal" data-target="#myModal">?</button>
+    </div>
+    <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+        <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Olá!</h4>
+            </div>
+            <div class="modal-body">
+                <p>Contribua para este projeto! Crie issues e melhore ainda mais esta aplicação!<br>
+                    Siga-me no 
+                    <a href="https://github.com/andreialvesreal">
+                        github
+                    </a>!
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Até Mais!</button>
+            </div>
+            </div>
+
+        </div>
+        </div>
+    
+</body>
+</html>
